@@ -61,12 +61,31 @@
         <servlet-name>RestServlet</servlet-name>
         <url-pattern>/rest/*</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RestServlet</servlet-name>
+        <url-pattern>/template-editor</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RestServlet</servlet-name>
+        <url-pattern>/RepositoryProvider</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RestServlet</servlet-name>
+        <url-pattern>/RepositoryChooser</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RestServlet</servlet-name>
+        <url-pattern>/AddRepository</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RestServlet</servlet-name>
+        <url-pattern>/Logout</url-pattern>
+    </servlet-mapping>
 
     <welcome-file-list>
         <welcome-file>index.html</welcome-file>
         <welcome-file>designer.html</welcome-file>
     </welcome-file-list>
-
 
 </web-app>
 
